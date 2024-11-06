@@ -11,6 +11,9 @@ const Navbar = () => {
         <Button color="inherit" component={RouterLink} to="/about">
           소개
         </Button>
+        <Button color="inherit" component={RouterLink} to="/contact">
+          문의하기
+        </Button>
       </Toolbar>
     </AppBar>
   );

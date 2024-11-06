@@ -1,9 +1,10 @@
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
+import TodoList from '../components/todo/TodoList';
 
 const Home = () => {
   return (
-    <Box>
-      <Typography variant="h4">홈페이지</Typography>
+    <Box sx={{ padding: 2 }}>
+      <TodoList />
     </Box>
   );
 };

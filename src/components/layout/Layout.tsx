@@ -6,12 +6,15 @@ const Layout = () => {
   return (
     <Box>
       <Navigation />
-      <Box component="main" sx={{ 
-        p: { xs: 2, sm: 4 },
-        maxWidth: 'lg',
-        mx: 'auto',
-        mt: 3
-      }}>
+      <Box
+        component="main"
+        sx={{
+          p: { xs: 2, sm: 4 },
+          maxWidth: 'lg',
+          mx: 'auto',
+          mt: 3,
+        }}
+      >
         <Outlet />
       </Box>
     </Box>
